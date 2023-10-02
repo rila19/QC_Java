@@ -12,8 +12,8 @@ public class Aufgabe5Palindrom {
     Verwenden Sie die folgende Signatur für die Methode:
     public static void palindrom(String text)
      */
-    public static  void splitStringInArray(){
-        String satz = "na Rentner junge otto";
+    public static  void printPolyndroms(String satz){
+        //String satz = "na Rentner junge otto";
         satz = satz.toLowerCase();
         String[] satzarray = satz.split(" ");
 
@@ -37,7 +37,7 @@ public class Aufgabe5Palindrom {
     }
 
     public static void main(String[] args) {
-        splitStringInArray();   //public static void palindrom(String text)
+        printPolyndroms("na Rentner junge otto");   //public static void palindrom(String text)
     }
 }
 

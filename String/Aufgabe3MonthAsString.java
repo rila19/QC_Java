@@ -19,13 +19,13 @@ zurückgeben.
         //DateTimeFormatter europeanDateFormatter = DateTimeFormatter.ofPattern(europeanDatePattern);
         //String strG = europeanDateFormatter.format(LocalDate.of(2016, 7, 31));
         String monatZahl = "dd";
-        for(int i = 0; i < 5; i++){
+        for(int i = 3; i < 5; i++){
             if (i == 3){
                 monatZahl = String.valueOf(datum.charAt(i));
                 //System.out.println(monatZahl);
             }
             if (i == 4) {
-                monatZahl = String.valueOf(datum.charAt(i));
+                monatZahl += String.valueOf(datum.charAt(i));
                 //System.out.println(monatZahl);
             }
         }
@@ -37,7 +37,7 @@ zurückgeben.
     }
 
     public static void main(String[] args) {
-        System.out.println( monthAsString("03.07.2023"));
+        System.out.println( monthAsString("03.11.2023"));
     }
 }
 

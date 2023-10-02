@@ -11,7 +11,7 @@ public class AufgabeE {
                 ...
         Optimieren Sie diesen Code.
     */
-    public static String Sprint9_Aufgabe(){
+    public static String addRandomString(){
         StringBuilder result = new StringBuilder();
         for(int i = 0; i < 10; i++) {
             result.append(generateRandomString());
@@ -34,7 +34,7 @@ public class AufgabeE {
         return(wort.toString());
     }
     public static void main(String[] args) {
-        String result = Sprint9_Aufgabe();
+        String result = addRandomString();
         System.out.println(result);
     }
 }

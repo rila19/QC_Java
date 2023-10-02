@@ -11,17 +11,16 @@ public class Aufgabe4Anagram {
     Verwenden Sie die folgende Signatur für die Methode:
     public static boolean isAnagram(String str)
      */
-    public static boolean isAnagram(){
+    public static boolean isAnagram(String a, String b){
         int c, p = 0;
         boolean x = true;
         int vergleich1;
         int vergleich2;
         char v;
 
-        String a = "Desperation";
         a = a.replaceAll(" +","");
         a = a.toLowerCase();
-        String b = "A Rope Ends It";
+
         b = b.replaceAll(" +","");
         b = b.toLowerCase();
 
@@ -62,8 +61,7 @@ public class Aufgabe4Anagram {
     }
 
     public static void main(String[] args) {
-        isAnagram();
-        if (isAnagram()) {
+        if (isAnagram("Desperation", "A Rope Ends It")) {
             System.out.println("Du hast ein Anagramm gefunden - Gut gemacht!");
         } else {
             System.out.println("Das ist kein Anagramm !");
