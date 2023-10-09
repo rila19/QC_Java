@@ -10,7 +10,7 @@ Aufgabe 1
         }
     }
 */
-public class aufgabe1 {
+public class AufgabeEins {
 
     public static void geradeZahl(){
         int i = 0;

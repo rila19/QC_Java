@@ -7,7 +7,7 @@ public static int ggt(int n, int m);
 Überprüfen Sie Ihre eigene Implementierung anhand von Aufrufen in einer main
 Methode.
  */
-public class aufgabe4 {
+public class AufgabeVier {
     public static int ggt(int n, int m){
     int i = 1;
     int teiler = 0;

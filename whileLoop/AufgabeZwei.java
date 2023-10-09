@@ -8,9 +8,9 @@ package whileLoop;
 * Überprüfen Sie Ihre eigene Implementierung anhand von Aufrufen in einer main
 * Methode.
  */
-public class aufgabe2 {
+public class AufgabeZwei {
 
-    public static double array_summe(double[] arr) {
+    public static double arraySumme(double[] arr) {
         //Array Deklaration: int[] a = new a[5];
         // hier wird deklariert und initialisiert
         //double[] a = {1, 2, 3, 4, 5};
@@ -24,6 +24,6 @@ public class aufgabe2 {
 
     public static void main(String[] args) {
         double[] a ={1.2, 1.3, 1.4, 1.5, 1.6};
-        System.out.println(array_summe(a));
+        System.out.println(arraySumme(a));
     }
 }
