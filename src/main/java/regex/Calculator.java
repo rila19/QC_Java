@@ -1,18 +1,17 @@
 package regex;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class calculator {
+public class Calculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
 
         Pattern plusOppattern = Pattern.compile("\\s*(\\d+)\\s*\\+\\s*(\\d+)|\\s*\\+\\s*(\\d+)|\\s*(\\d+)");
         Pattern Minuspattern = Pattern.compile("\\s*(\\d+)\\s*\\-\\s*(\\d+)|\\s*\\-\\s*(\\d+)|\\s*(\\d+)");
-        Pattern Divpattern = Pattern.compile("\\s*(\\d+)\\s*\\:\\s*(\\d+)|\\s*\\:\\s*(\\d+)|\\s*(\\d+)");
+        Pattern Divpattern = Pattern.compile("\\s*(\\d+)\\s*\\/\\s*(\\d+)|\\s*\\/\\s*(\\d+)|\\s*(\\d+)");
         Pattern Multipattern = Pattern.compile("\\s*(\\d+)\\s*\\*\\s*(\\d+)|\\s*\\*\\s*(\\d+)|\\s*(\\d+)");
         Pattern Modulopattern = Pattern.compile("\\s*(\\d+)\\s*\\%\\s*(\\d+)|\\s*\\%\\s*(\\d+)|\\s*(\\d+)");
         Pattern quitPattern = Pattern.compile("^\\s*:q\\s*$");
